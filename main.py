@@ -18,7 +18,6 @@ class TmEViewer(QMainWindow):
         self.init_ui()
 
     def init_ui(self):
-        # 菜單
         menubar = self.menuBar()
         file_menu = menubar.addMenu('File')
         open_action = QAction('Open (.nii)', self)
@@ -192,7 +191,6 @@ class TmEViewer(QMainWindow):
             plotter.add_text("Transmission Efficiency", font_size=6)
             plotter.show()
 
-            # 更新状态栏
             self.statusBar().showMessage(
                 "3D Skull Properties + Insertion Loss Displayed")
 
