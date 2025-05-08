@@ -1,5 +1,6 @@
 # Overview
 This Viewer is a Python-based graphical application built with PyQt5 and PyVista. It allows users to:
+
 **· Visualize 3D medical images (CT or MRI of the skull) stored in NIfTI format (.nii, .nii.gz), using interactive slice viewers.**
 
 **· Load and display transmission efficiency results from paper reference() in .mat form.**
